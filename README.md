@@ -1,2 +1,2 @@
 # localscheduler
-Schedule Settings that updates packages in local environment
+Set schedules update tools in local environment.
