@@ -1,7 +1,7 @@
 env :MAILTO, ''
 set :output, '~/.update_log'
 
-every '0 10 * * 1-5' do
+every '30 8 * * *' do
   command 'cd ~/.rbenv/plugins/ruby-build;git pull'
   command 'cd ~/.phpenv/plugins/php-build;git pull'
   command 'nodebrew install-binary latest'
