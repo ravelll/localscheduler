@@ -1,3 +1,4 @@
+env :MAILTO, ''
 set :output, '~/.update_log'
 
 every '0 10 * * 1-5' do
