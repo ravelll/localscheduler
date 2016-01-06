@@ -6,4 +6,5 @@ every '0 10 * * 1-5' do
   command 'cd ~/.phpenv/plugins/php-build;git pull'
   command 'nodebrew install-binary latest'
   command 'brew update;brew upgrade;brew cleanup'
+  command 'brew reinstall vim --with-lua --with-luajit --with-mzscheme --HEAD'
 end
